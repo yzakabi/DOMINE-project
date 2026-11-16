@@ -1,0 +1,90 @@
+body, h1, h2, p, a, label, input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+    line-height: 1.6;
+}
+
+.feedback-page-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.back-link {
+    color: #4292bf;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.feedback-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-box h1 {
+    color: #333653;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.feedback-box p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.feedback-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.feedback-form textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #4292bf; /* Cor primária */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #367ca6;
+}

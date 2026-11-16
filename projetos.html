@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard de Projeto</title>
+  <link rel="stylesheet" href="stylesprojetos.css" />
+</head>
+<body>
+ <header>
+    <div class="logo-brand">
+        <img src="img/logo.png" alt="Domine Logo" class="logo-img">
+        <div class="logo">Domine</div>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Dashboard</a></li> 
+        <li><a href="#">Equipe</a></li>
+        <li><a href="#">Configurações</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="left-panel">
+      <h2 class="section-title" ><a href="projetoDetalhes.html">Evolução do Projeto</a></h2>
+      <div class="chart-container">
+        <div class="chart-wrapper">
+          <svg viewBox="0 0 36 36" class="circular-chart">
+            <circle class="circle-bg" cx="18" cy="18" r="16" />
+            <circle class="circle" cx="18" cy="18" r="16" />
+          </svg>
+          <div class="chart-percentage">75%</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="right-panel">
+      <div class="right-top">
+        <div class="box">
+          <div class="box-header">
+            <h3>Tarefas Pendentes</h3>
+          </div>
+          <ul class="task-list">
+            <li><input type="checkbox" /> Instalação Elétrica</li>
+            <li><input type="checkbox" /> Negociação de Equipamentos</li>
+            <li><input type="checkbox" /> Aquisição de Normas de Segurança</li>
+            <li><input type="checkbox" /> Planejamento</li>
+            <li><input type="checkbox" /> Licensas para uso</li>
+            <li><input type="checkbox" /> Implantação de portas</li>
+            <li><input type="checkbox" /> Instalação de Painéis</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-bottom">
+        <div class="box">
+          <div class="box-header">
+            <h3>Status da Equipe</h3>
+          </div>
+          <div class="team-status">
+            <div class="member">
+              <img src="https://i.pravatar.cc/40?img=3" alt="Membro" />
+              <span>Paulo — Segurança do Trabalho</span>
+              <span class="status online">●</span>
+            </div>
+            <div class="member">
+              <img src="https://i.pravatar.cc/40?img=5" alt="Membro" />
+              <span>Marina — Engenheira Elétrico</span>
+              <span class="status offline">●</span>
+            </div>
+            <div class="member">
+              <img src="https://i.pravatar.cc/40?img=8" alt="Membro" />
+              <span>Lucas — Técnico de Instalação</span>
+              <span class="status online">●</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Domine — Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

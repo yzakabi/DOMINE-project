@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domine - Enviar Feedback</title>
+    <link rel="stylesheet" href="stylesfeedback.css"> 
+</head>
+<body>
+    <div class="feedback-page-container">
+        <a href="index.html" class="back-link">← Voltar para o Dashboard</a>
+        
+        <div class="feedback-box">
+            <h1>Envie seu Feedback</h1>
+            <p>Sua opinião é muito importante para nós. Use o formulário abaixo para enviar sugestões, relatar problemas ou deixar um elogio.</p>
+
+            <form action="#" method="post" class="feedback-form">
+                <label for="name">Seu Nome (Opcional):</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome">
+
+                <label for="email">Seu Email (Para contato, se necessário):</label>
+                <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+
+                <label for="feedback_type">Tipo de Feedback:</label>
+                <select id="feedback_type" name="feedback_type" required>
+                    <option value="sugestao">Sugestão de Funcionalidade</option>
+                    <option value="problema">Relato de Problema/Bug</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="message">Sua Mensagem:</label>
+                <textarea id="message" name="message" rows="6" required placeholder="Descreva seu feedback aqui..."></textarea>
+
+                <button type="submit" class="submit-button">Enviar Feedback</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html
